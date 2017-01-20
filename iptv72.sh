@@ -60,4 +60,3 @@ cd
 ping 127.0.0.1 -c 2 > /dev/null
 echo 脚本运行完成，如果光猫已经设置完毕，您可以把IPTV接在Lan1-4任意接口
 ping 127.0.0.1 -c 2 > /dev/null
-echo 感谢您的使用,作者ArronYin
