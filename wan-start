@@ -3,4 +3,5 @@ dbus fire onwanstart
 sleep 0
 sh /koolshare/scripts/ss_config.sh
 /usr/bin/plugin.sh start
+robocfg vlan 51 ports "0t 1t 2t 3t 4t 5t 6t 7t" vlan 85 ports "0t 1t 2t 3t 4t 5t 6t 7t"
 service restart_dnsmasq
