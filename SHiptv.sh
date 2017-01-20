@@ -54,18 +54,6 @@ ping 127.0.0.1 -c 2 > /dev/null
 #空行
 echo
 
-#运行提示
-echo 正在重启dnsmasq
-#重启dnsmasq
-service restart_dnsmasq > /dev/null
-#完成提示
-echo dnsmasq已重启
-
-#延迟运行
-ping 127.0.0.1 -c 2 > /dev/null
-#空行
-echo
-
 #返回默认目录
 cd
 
@@ -79,7 +67,7 @@ ping 127.0.0.1 -c 2 > /dev/null
 echo
 
 #运行提示
-echo 正在重启路由器，请耐心等待
+echo 正在重启路由器，请待路由器重启成功后，重新启动IPTV
 #延迟运行
 ping 127.0.0.1 -c 2 > /dev/null
 #重启路由器
