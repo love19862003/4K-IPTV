@@ -72,8 +72,6 @@ cd
 #提示成功
 ping 127.0.0.1 -c 2 > /dev/null
 echo 脚本运行完成，如果光猫已经设置完毕，您可以把IPTV接在Lan1-4任意接口
-ping 127.0.0.1 -c 2 > /dev/null
-echo 感谢您的使用,作者ArronYin
 
 #延迟运行
 ping 127.0.0.1 -c 2 > /dev/null
@@ -81,6 +79,8 @@ ping 127.0.0.1 -c 2 > /dev/null
 echo
 
 #运行提示
-echo 正在重启路由器  
+echo 正在重启路由器，请耐心等待
+#延迟运行
+ping 127.0.0.1 -c 2 > /dev/null
 #重启路由器
 reboot > /dev/null
